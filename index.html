@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lugar</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body>
+
+<div class="upper-part">
+
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+
+            <a class="navbar-brand" href="#"><img src="img/logo.svg" alt="Lugar"></a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mb-2 mb-lg-0 ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">ABOUT</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">CONTACT</a>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="hero">
+            <div class="row">
+                <div class="col-md-7 col-12">
+                    <h1 class="display-1 hero__title">A home is <br> built with love <br> and dreams</h1>
+                    <h5 class="hero__main-text">Real estate farm that makes your dreams true</h5>
+                    <div class="hero__buttons">
+                        <button type="button" class="btn"><a href="#contact">Contact us</a></button>
+
+                        <span class="tt" data-bs-placement="bottom" title="-%%% HERE!">
+                            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#discountModal">
+                                Get a discount!
+                            </button>
+                        </span>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div class="modal fade" id="discountModal" tabindex="-1" aria-labelledby="discountModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="modal-title fs-5" id="discountModalLabel">Modal title</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                Congratulations! Your discount was applied.
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Save changes</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="company-info" id="about">
+    <div class="container">
+        <div class="company-info__row">
+            <div class="company-info__left">
+                <div class="company-info__picture">
+                    <img src="img/left_bg.png" alt="">
+                </div>
+            </div>
+            <div class="company-info__right">
+                <div class="company-info__information">
+                    <h1 class="company-info__title">Award winning real estate company in Dubai</h1>
+                    <h5 class="company-info__middle-text">Semper arcu mauris aliquam lacus. Massa erat vitae ultrices
+                        pharetra scelerisque. Ipsum, turpis facilisis tempor pulvinar in lobortis ornare magna.</h5>
+                    <div class="company-info__stats">
+                        <div class="company-info__item">
+                            <div class="company-info__item-name">PREVIOUS PROJECTS</div>
+                            <h1 class="company-info__item-value">34+</h1>
+                        </div>
+                        <div class="company-info__item">
+                            <div class="company-info__item-name">YEARS EXPERIENCE</div>
+                            <h1 class="company-info__item-value">20y</h1>
+                        </div>
+                        <div class="company-info__item">
+                            <div class="company-info__item-name">ONGOING PROJECTS</div>
+                            <h1 class="company-info__item-value">12</h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="reviews">
+    <div class="container position-relative">
+        <div class="reviews__text text-center">
+            <h1 class="section-title reviews__title">Few smiles and comment</h1>
+            <h5 class="reviews__subtitle">Turpis facilisis tempor pulvinar in lobortis ornare magna.</h5>
+        </div>
+        <div class="reviews__slider-wrapper">
+            <div id="myCarousel" class="carousel slide">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="review">
+                            <div class="review__row">
+                                <div class="review__left">
+                                    <div class="carousel-item__picture">
+                                        <img src="img/character_1.png" alt="">
+                                    </div>
+                                </div>
+                                <div class="review__right">
+                                    <div class="carousel-item__text">
+                                        <div class="carousel-item__quote">
+                                            <img src="img/quote.png" alt="">
+                                        </div>
+                                        <h2 class="carousel-item__title">Dream house isn't a dream anymore</h2>
+                                        <h4 class="carousel-item__review">Semper arcu mauris aliquam lacus. Massa erat
+                                            vitae ultrices pharetra scelerisque. Ipsum, turpis facilisis tempor
+                                            pulvinar.</h4>
+                                        <h4 class="carousel-item__character">Brooklyn Simmons</h4>
+                                        <div class="carousel-item__job">Artist</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="review">
+                            <div class="review__row">
+                                <div class="review__left">
+                                    <div class="carousel-item__picture">
+                                        <img src="img/character_2.jpg" alt="">
+                                    </div>
+                                </div>
+                                <div class="review__right">
+                                    <div class="carousel-item__text">
+                                        <div class="carousel-item__quote">
+                                            <img src="img/quote.png" alt="">
+                                        </div>
+                                        <h2 class="carousel-item__title">I can finally invite my family over!</h2>
+                                        <h4 class="carousel-item__review">Semper arcu mauris aliquam lacus. Massa erat
+                                            vitae ultrices pharetra scelerisque. Ipsum, turpis facilisis tempor
+                                            pulvinar.</h4>
+                                        <h4 class="carousel-item__character">Sam Smith</h4>
+                                        <div class="carousel-item__job">Business owner</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+                <img src="img/prev.png" alt="Previous"/>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+                <img src="img/next.png" alt="Next"/>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+</div>
+
+<div class="contact-us" id="contact">
+    <div class="container">
+        <div class="contact-us__row">
+            <div class="contact-us__left">
+                <div class="contact-us__picture">
+                    <img src="img/last_pic.png" alt="">
+                </div>
+            </div>
+
+            <div class="contact-us__right">
+                <div class="contact-us-form">
+                    <h1 class="contact-us-form__title section-title">Contact us</h1>
+                    <div class="contact-us-form__description">Turpis facilisis tempor pulvinar in lobortis ornare
+                        magna.
+                    </div>
+                    <form class="contact-us-form__form">
+                        <div class="contact-us-form__fields row">
+                            <div class="col-sm-6 col-12">
+                                <input type="text" class="form-control  mb-3" placeholder="First name" required>
+                            </div>
+                            <div class="col-sm-6 col-12">
+                                <input type="text" class="form-control mb-3" placeholder="Last name" required>
+                            </div>
+                            <div class="col-sm-6 col-12">
+                                <input type="email" class="form-control mb-3" placeholder="Email address" required>
+                            </div>
+                            <div class="col-sm-6 col-12">
+                                <input type="number" class="form-control mb-3" placeholder="Phone number" required>
+                            </div>
+                            <div class="col-12">
+                                <textarea class="form-control" placeholder="Description" required></textarea>
+                            </div>
+                        </div>
+                        <div class="contact-us-form__bottom">
+                            <button type="submit" class="btn">Submit</button>
+                            <div class="contact-us-form__btn-description">We don’t sell your email and spam</div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</div>
+
+<footer class="footer bg-blue text-white">
+    <div class="container">
+        <div class="footer__row">
+            <div class="footer__col">
+                <h5 class="footer-content__title">QUICK LINKS</h5>
+                <div class="footer-content__links">
+                    <ul>
+                        <li>Home</li>
+                        <li>About</li>
+                        <li>Contact</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer__col">
+                <h5 class="footer-content__title">LEGAL LINKS</h5>
+                <div class="footer-content__links">
+                    <ul>
+                        <li>Terms</li>
+                        <li>Conditions</li>
+                        <li>Policy</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer__col">
+                <h5 class="footer-content__title">SOCIAL MEDIA</h5>
+                <div class="footer-content__links">
+                    <ul>
+                        <li>Facebook</li>
+                        <li>YouTube</li>
+                        <li>Twitter</li>
+                        <li>LinkedIn</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+<script>
+    const tooltips = document.querySelectorAll('.tt');
+    tooltips.forEach(t => {
+        new bootstrap.Tooltip(t);
+    });
+
+</script>
+
+
+</body>
+
+
+</html>
